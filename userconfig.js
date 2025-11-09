@@ -52,6 +52,12 @@ const default_configuration = {
               icon: "droplet-bolt",
               icon_color: palette.green,
             },
+            {
+              name: "Steam",
+              url: "https://store.steampowered.com/",
+              icon: "brand-steam",
+              icon_color: palette.green,
+            },
           ],
         },
         {
@@ -64,18 +70,6 @@ const default_configuration = {
               icon_color: palette.green,
             },
             {
-              name: "calendar",
-              url: "https://calendar.google.com",
-              icon: "calendar-filled",
-              icon_color: palette.peach,
-            },
-            {
-              name: "sheets",
-              url: "https://docs.google.com/spreadsheets",
-              icon: "table",
-              icon_color: palette.red,
-            },
-            {
               name: "drive",
               url: "https://drive.google.com/drive/home",
               icon: "brand-google-drive",
@@ -84,37 +78,19 @@ const default_configuration = {
           ],
         },
         {
-          name: "media",
+          name: "piracy",
           links: [
             {
-              name: "уп",
-              url: "https://www.pravda.com.ua",
-              icon: "news",
-              icon_color: palette.green,
-            },
-            {
-              name: "mil.in.ua",
-              url: "https://mil.in.ua",
-              icon: "badge-filled",
+              name: "z.lib",
+              url: "https://pt.z-lib.fm/",
+              icon: "book-2",
               icon_color: palette.peach,
             },
             {
-              name: "куток",
-              url: "https://kutok.io",
-              icon: "border-radius",
-              icon_color: palette.red,
-            },
-            {
-              name: "ґрунт",
-              url: "https://grnt.media",
-              icon: "eye-bolt",
-              icon_color: palette.blue,
-            },
-            {
-              name: "village",
-              url: "https://www.village.com.ua",
-              icon: "home-2",
-              icon_color: palette.mauve,
+              name: "fit-girl repack",
+              url: "https://fitgirl-repacks.site/",
+              icon: "device-gamepad-2",
+              icon_color: palette.peach,
             },
           ],
         },
@@ -134,28 +110,16 @@ const default_configuration = {
               icon_color: palette.green,
             },
             {
-              name: "neptune",
-              url: "https://ui.neptune.ai",
-              icon: "circle-triangle",
-              icon_color: palette.peach,
-            },
-            {
-              name: "stackoverflow",
-              url: "https://stackoverflow.com",
-              icon: "brand-stackoverflow",
-              icon_color: palette.red,
+              name: "devdocs",
+              url: "https://devdocs.io/",
+              icon: "brackets-angle",
+              icon_color: palette.green,
             },
           ],
         },
         {
           name: "challenges",
           links: [
-            {
-              name: "kaggle",
-              url: "https://www.kaggle.com",
-              icon: "brain",
-              icon_color: palette.green,
-            },
             {
               name: "leetcode",
               url: "https://leetcode.com",
@@ -211,29 +175,6 @@ const default_configuration = {
       name: "chi ll",
       background_url: "src/img/banners/banner_08.gif",
       categories: [
-        {
-          name: "social media",
-          links: [
-            {
-              name: "telegram",
-              url: "https://web.telegram.org",
-              icon: "brand-telegram",
-              icon_color: palette.green,
-            },
-            {
-              name: "facebook",
-              url: "https://www.facebook.com",
-              icon: "brand-facebook",
-              icon_color: palette.peach,
-            },
-            {
-              name: "reddit",
-              url: "https://www.reddit.com/r/unixporn",
-              icon: "brand-reddit",
-              icon_color: palette.red,
-            },
-          ],
-        },
         {
           name: "gaming",
           links: [
